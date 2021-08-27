@@ -12,7 +12,7 @@ RUN yarn \
   && yarn build-prod
 
 # Fetch nginx image to host application
-FROM nginx:mainline-alpine
+FROM nginx:1.21-alpine
 
 # Copy nginx configuration and build application inside the final container
 COPY --from=build /src/docker/nginx.conf /etc/nginx/conf.d/default.conf
