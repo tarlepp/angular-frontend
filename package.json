@@ -75,7 +75,7 @@
     "@types/jasminewd2": "2.0.10",
     "@types/moment": "2.13.0",
     "@types/moment-timezone": "0.5.30",
-    "@types/node": "16.7.3",
+    "@types/node": "16.7.4",
     "@typescript-eslint/eslint-plugin": "4.29.3",
     "@typescript-eslint/parser": "4.29.3",
     "eslint": "7.32.0",
