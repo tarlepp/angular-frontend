@@ -39,6 +39,14 @@
     "@angular-devkit/core" "19.0.6"
     rxjs "7.8.1"
 
+"@angular-devkit/architect@>= 0.1800.0 < 0.1900.0":
+  version "0.1802.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1802.12.tgz#096f8e9cf71f8848c6f0172c03f3f1135509e133"
+  integrity sha512-bepVb2/GtJppYKaeW8yTGE6egmoWZ7zagFDsmBdbF+BYp+HmeoPsclARcdryBPVq68zedyTRdvhWSUTbw1AYuw==
+  dependencies:
+    "@angular-devkit/core" "18.2.12"
+    rxjs "7.8.1"
+
 "@angular-devkit/build-angular@19.0.6":
   version "19.0.6"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-19.0.6.tgz#d68dd9237f04e590170d02b90780d935c1b4b6ff"
@@ -200,6 +208,18 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
+"@angular-devkit/core@18.2.12", "@angular-devkit/core@>= 18.0.0 < 19.0.0":
+  version "18.2.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-18.2.12.tgz#fb514e9b3c9ea87ddaa1582d3947f1b094c9b387"
+  integrity sha512-NtB6ypsaDyPE6/fqWOdfTmACs+yK5RqfH5tStEzWFeeDsIEDYKsJ06ypuRep7qTjYus5Rmttk0Ds+cFgz8JdUQ==
+  dependencies:
+    ajv "8.17.1"
+    ajv-formats "3.0.1"
+    jsonc-parser "3.3.1"
+    picomatch "4.0.2"
+    rxjs "7.8.1"
+    source-map "0.7.4"
+
 "@angular-devkit/core@18.2.8":
   version "18.2.8"
   resolved "https://registry.npmjs.org/@angular-devkit/core/-/core-18.2.8.tgz"
@@ -257,10 +277,13 @@
     ora "5.4.1"
     rxjs "6.6.7"
 
-"@angular-eslint/builder@18.4.2":
-  version "18.4.2"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-18.4.2.tgz#28a4833919ede3db0a1d905fd903485588282115"
-  integrity sha512-eyI9sreaM9ukA24PCJoSqsjCYOiBf3TZ/Q1WY8PG0SwQWc03qJNqPl5K+/Ptmsc1RtoDCLCU6uaOBFPhb9lDxw==
+"@angular-eslint/builder@18.4.3":
+  version "18.4.3"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-18.4.3.tgz#800b8a68b464ddfc0d737b0ad38c7804b463d8e1"
+  integrity sha512-NzmrXlr7GFE+cjwipY/CxBscZXNqnuK0us1mO6Z2T6MeH6m+rRcdlY/rZyKoRniyNNvuzl6vpEsfMIMmnfebrA==
+  dependencies:
+    "@angular-devkit/architect" ">= 0.1800.0 < 0.1900.0"
+    "@angular-devkit/core" ">= 18.0.0 < 19.0.0"
 
 "@angular-eslint/bundled-angular-compiler@18.4.2":
   version "18.4.2"
