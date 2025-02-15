@@ -26,10 +26,10 @@ jobs:
       - name: Make checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Use Node.js 23.6.1
+      - name: Use Node.js 23.8.0
         uses: actions/setup-node@v4.1.0
         with:
-          node-version: 23.6.1
+          node-version: 23.8.0
 
       - name: Install dependencies
         run: yarn install
@@ -45,10 +45,10 @@ jobs:
       - name: Make checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Use Node.js 23.6.1
+      - name: Use Node.js 23.8.0
         uses: actions/setup-node@v4.1.0
         with:
-          node-version: 23.6.1
+          node-version: 23.8.0
 
       - name: Install dependencies
         run: yarn install
@@ -84,10 +84,10 @@ jobs:
       - name: Make checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Use Node.js 23.6.1
+      - name: Use Node.js 23.8.0
         uses: actions/setup-node@v4.1.0
         with:
-          node-version: 23.6.1
+          node-version: 23.8.0
 
       - name: Install dependencies
         run: yarn install
@@ -103,10 +103,10 @@ jobs:
       - name: Make checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Use Node.js 23.6.1
+      - name: Use Node.js 23.8.0
         uses: actions/setup-node@v4.1.0
         with:
-          node-version: 23.6.1
+          node-version: 23.8.0
 
       - name: Install dependencies
         run: yarn install
